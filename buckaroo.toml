@@ -1,0 +1,6 @@
+
+[[dependency]]
+package = "github.com/buckaroo-pm/google-googletest"
+version = "branch=master"
+targets = [":googletest", ":googlemock"]
+private = true
